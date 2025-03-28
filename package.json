@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test-chrome": "playwright test --headed --project='Google Chrome'"
+    "test-chrome": "playwright test --headed --project='Google Chrome'",
+    "test-chrome-ui": "playwright test --ui --project='Google Chrome'",
+    "test-chrome-demo": "playwright test --grep @demo --headed --project='Google Chrome'"
+
   },
   "repository": {
     "type": "git",
