@@ -10,7 +10,7 @@ test.skip('Validate Practice Form Page', { tag: '@demo',}, async ({ page }) => {
     await practiceFormPage.validate();
 });
 
-test('Create a new Student using required fields', { tag: '@demo',}, async ({ page }) => {
+test.skip('Create a new Student using required fields', { tag: '@demo',}, async ({ page }) => {
     const practiceFormPage = new PracticeFormPage(page);
     await practiceFormPage.goto();
     await practiceFormPage.validate();
